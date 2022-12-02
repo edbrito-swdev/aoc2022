@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD55A9A92939163500A55628 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD55A9A82939163500A55628 /* main.cpp */; };
-		CD55A9B029391BAE00A55628 /* part2.cp in Sources */ = {isa = PBXBuildFile; fileRef = CD55A9AF29391BAE00A55628 /* part2.cp */; };
+		CD55A9A92939163500A55628 /* part1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD55A9A82939163500A55628 /* part1.cpp */; };
+		CD55A9B029391BAE00A55628 /* part2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD55A9AF29391BAE00A55628 /* part2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		CD55A9A52939163500A55628 /* aoc2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aoc2022; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD55A9A82939163500A55628 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CD55A9AF29391BAE00A55628 /* part2.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = part2.cp; sourceTree = "<group>"; };
+		CD55A9A82939163500A55628 /* part1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = part1.cpp; sourceTree = "<group>"; };
+		CD55A9AF29391BAE00A55628 /* part2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = part2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,18 @@
 		CD55A9A72939163500A55628 /* aoc2022 */ = {
 			isa = PBXGroup;
 			children = (
-				CD55A9A82939163500A55628 /* main.cpp */,
-				CD55A9AF29391BAE00A55628 /* part2.cp */,
+				CD55A9B32939790700A55628 /* day01 */,
 			);
 			path = aoc2022;
+			sourceTree = "<group>";
+		};
+		CD55A9B32939790700A55628 /* day01 */ = {
+			isa = PBXGroup;
+			children = (
+				CD55A9A82939163500A55628 /* part1.cpp */,
+				CD55A9AF29391BAE00A55628 /* part2.cpp */,
+			);
+			path = day01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD55A9B029391BAE00A55628 /* part2.cp in Sources */,
-				CD55A9A92939163500A55628 /* main.cpp in Sources */,
+				CD55A9B029391BAE00A55628 /* part2.cpp in Sources */,
+				CD55A9A92939163500A55628 /* part1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

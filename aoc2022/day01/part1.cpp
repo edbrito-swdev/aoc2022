@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  part1.cpp
 //  aoc2022
 //
 //  Created by Eduardo Brito on 01/12/2022.
